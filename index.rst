@@ -8,3 +8,5 @@ Calculus 101
    :maxdepth: 2
 
 .. include:: history.rst
+
+.. include:: preliminaries.rst
