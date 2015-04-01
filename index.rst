@@ -10,3 +10,5 @@ Calculus 101
 .. include:: history.rst
 
 .. include:: preliminaries.rst
+
+.. include:: integers.rst
