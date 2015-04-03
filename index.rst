@@ -12,3 +12,5 @@ Calculus 101
 .. include:: preliminaries.rst
 
 .. include:: integers.rst
+
+.. include:: rationals.rst
