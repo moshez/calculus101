@@ -14,3 +14,5 @@ Calculus 101
 .. include:: integers.rst
 
 .. include:: rationals.rst
+
+.. include:: irrationals.rst
