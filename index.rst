@@ -18,3 +18,5 @@ Calculus 101
 .. include:: irrationals.rst
 
 .. include:: real-axioms.rst
+
+.. include:: sequences.rst
