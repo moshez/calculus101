@@ -65,7 +65,7 @@ an upper bound, it has a least upper bound.
 If :math:`p` is the least upper bound of a set,
 then it is the only least upper bound of the set.
 Because of that, we call such a number "the supremum" of the
-set, and denote :math:`p=\mathtext{sup} A`
+set, and denote :math:`p=\text{sup} A`
 
 The rational numbers, as we have seen, are not complete.
 Specifically, the set of values that :math:`a_n`,
