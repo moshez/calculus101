@@ -20,3 +20,5 @@ Calculus 101
 .. include:: real-axioms.rst
 
 .. include:: sequences.rst
+
+.. include:: limits.rst
