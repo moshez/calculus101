@@ -22,3 +22,7 @@ Calculus 101
 .. include:: sequences.rst
 
 .. include:: limits.rst
+
+.. TODO
+   Cantor's lemma based off of https://calculus101.wordpress.com/wp-admin/post.php?post=46&action=edit
+   Rest of https://calculus101.wordpress.com/wp-admin/post.php?post=46&action=edit
