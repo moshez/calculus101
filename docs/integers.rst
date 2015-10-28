@@ -4,7 +4,7 @@ Building the Integers
 We are already one leg up on the ancient Greeks,
 as we have a 0 in our natural numbers.
 However, it turns out that we need some more numbers to be able to answer questions like
- "If I have $3, and I spend $4, how much money do I have?" (answer: "$1 in debt", of course).
+"If I have $3, and I spend $4, how much money do I have?" (answer: "$1 in debt", of course).
 
 There are several ways to construct the integers.
 The technique used here will also come in handy later: 
@@ -117,21 +117,22 @@ Note :math:`[(X,Y)]+[(Y,X)]=[(X+Y,Y+X)]=[(0,0)]=e(0)`.
 Define $-[(X,Y)]=[(Y,X)]$, and the equality above can be written as:
 
 .. math::
+
    a+(-a)=0
 
 The integers with addition and multiplication are called a ring for satisfying
 the following axioms:
 
- * :math:`a+0=a`
- * :math:`a+(b+c)=(a+b)+c`
- * :math:`a+b=b+a`
- * For every :math:`a` there is a :math:`-a such that :math:`a+(-a)=0`
- * :math:`a1=a`
- * :math:`a(bc)=(ab)c`
- * :math:`ab=ba`
- * :math:`a(b+c)=ab+ac`
+* :math:`a+0=a`
+* :math:`a+(b+c)=(a+b)+c`
+* :math:`a+b=b+a`
+* For every :math:`a` there is a :math:`-a such that :math:`a+(-a)=0`
+* :math:`a1=a`
+* :math:`a(bc)=(ab)c`
+* :math:`ab=ba`
+* :math:`a(b+c)=ab+ac`
 
-(Notice that above we wrote :math:`0` and :math:`1` for :math:`e(0)` and :math:`e(1)`.
+(Notice that above we wrote :math:`0` and :math:`1` for :math:`e(0)` and :math:`e(1)`).
 
 Define :math:`a-b=a+(-b)`, and any two integers can be subtracted.
 

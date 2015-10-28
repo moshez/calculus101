@@ -133,7 +133,8 @@ and so the induction is proven. QED
 We write :math:`\mathbb{N}` for the set of natural numbers.
 
 TODO: write hint-a-long exercise for:
- * If :math:`A` is a set, and :math:`p\in A` is a member,
+
+* If :math:`A` is a set, and :math:`p\in A` is a member,
   :math:`B` is the set of all pairs :math:`(a, n)` for
   :math:`a\in A` and :math:`n` a natural number,
   and :math:`f:B\to A` is a function,

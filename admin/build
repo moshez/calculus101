@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-virtualenv --clear build/env
-./build/env/bin/pip install -r admin/requirements.txt
-sphinx . ./build/output
