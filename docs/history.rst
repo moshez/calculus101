@@ -1,7 +1,7 @@
 History and Motivation
 ----------------------
 
-One upon a time, Isaac Newton wanted to define the speed of an object, whose speed changes continuously.
+Once upon a time, Isaac Newton wanted to define the speed of an object, whose speed changes continuously.
 He erected a weird tower of concepts like "infinitesimals" to analyze this concept,
 and came up with something that, surprisingly enough, worked.
 However, Newton's notation and concepts were hard to understand and,
