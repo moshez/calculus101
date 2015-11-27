@@ -13,7 +13,7 @@ A set can also be indicated by a property of its elements: :math:`{x:x>5}`.
 The second is functions.
 The intuitive idea of a "function" is "something that assigns each element in its domain a value".
 Making this notion more formal requires a surprise --
-we do not have any rules of assignment or a way of calculating the result.
+we do not have to have any rules of assignment or a way of calculating the result.
 The formal definition of a function is
 "a set of pairs :math:`(x, y)` such that there are no two pairs
 :math:`(x, y)` and :math:`(z, w)` where :math:`x=z` but :math:`y\neq w`".
@@ -96,7 +96,7 @@ and in either case, it is not the case that :math:`y<1`. QED
 Notice that this was a simple application --
 the fact that the inductive statement holds for :math:`x` was not even used. 
 
-TODO: Write hint-along-exercises for:
+TODO [Issue #1]: Write hint-along-exercises for:
  * Prove :math:`x\leq y` and :math:`y\leq x` implies :math:`x=y`
  * Prove :math:`0\leq x` for every :math:`x`
  * Prove order respects addition and multiplication, as an exercise
@@ -106,7 +106,7 @@ Here is a more interesting example: every non-empty set of integers has a least 
 
 Now, this does not seem to be a statement where we can use the law of induction.
 Instead, we transform it into a statement where we can use induction:
-for every set :math:`A`, if :math:`x \in A` (read as ":math:`n` is in :math:`A`),
+for every set :math:`A`, if :math:`x \in A` (read as ":math:`x` is in :math:`A`),
 then :math:`A` has a least element.
 Induction on this statement, however, will fail.
 As is often the case, the hardest part is figuring out the correct inductive statement.
@@ -132,7 +132,7 @@ and so the induction is proven. QED
 
 We write :math:`\mathbb{N}` for the set of natural numbers.
 
-TODO: write hint-a-long exercise for:
+TODO [Issue #1]: write hint-a-long exercise for:
 
 * If :math:`A` is a set, and :math:`p\in A` is a member,
   :math:`B` is the set of all pairs :math:`(a, n)` for
@@ -147,3 +147,5 @@ called a "sequence",
 and the technique above is called
 "defining a sequence by recursion".
 It is a powerful technique for generating sequences.
+
+TODO [Issue #2]: Show a few examples of defining functions recursively
