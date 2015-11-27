@@ -23,6 +23,10 @@ Calculus 101
     real-functions
     limit
     continuity
+    derivative
+    roll-theorem
+    integral
+    exponential
 
 .. TODO
    Rest of https://calculus101.wordpress.com/wp-admin/post.php?post=46&action=edit
