@@ -19,6 +19,7 @@ Calculus 101
     subsequences
     completeness
     build-reals
+    series
 
 .. TODO
    Rest of https://calculus101.wordpress.com/wp-admin/post.php?post=46&action=edit

@@ -1,0 +1,25 @@
+Series
+======
+
+Let :math:`a_n` be a sequence. We define another sequence, called the partial sums, :math:`S_n`, by induction: :math:`S_0=a_0` and :math:`S_{n+1}=S_n+a_{n+1}`. Intuitively, we think of those sums as approaching summing up all elements in :math:`a_n`. If the sequence of partial sums converges, we call this the sum of :math:`a_n`, and denote it by :math:`\sum a_n`.
+
+As a simple example, if :math:`a_n=1/2^n`, then :math:`S_n=2-1/2^n` (by induction). Then :math:`S_n` converges to :math:`2` and :math:`\sum 1/2^n=2`.
+
+A "series" is the partial sums of a sequence, and so we say that the series :math:`a_n` converges if :math:`S_n` converges.
+
+We note that although the sum is not a tail property, the convergence of the series is: if :math:`S_n` converges, after all, so does :math:`S_{n+N}`, since sequence convergence is a tail property, and then so does :math:`S_{n+N}-S_N` -- but this is the sequence of sums of the :math:`N`-tail.
+
+We also note that since for a sequence to converge it must be Cauchy, if :math:`S_n` is Cauchy than for every :math:`\epsilon` there is an :math:`N` such that if :math:`n,m>N` :math:`|S_n-S_m|<\epsilon`. In particular, if :math:`m=n-1`, :math:`|a_n|<\epsilon` and therefore :math:`a_n` converges to :math:`0`. This is our first negative criterion of series convergence: if a sequence does not converge to :math:`0`, its series does not converge.
+
+Assume :math:`a_n` is a sequence such that the series :math:`|a_n|` converges. In that case, the partial sum sequence is therefore Cauchy, and so converges. If we call the partial sum sequence for :math:`|a_n|` by the name of :math:`T_n`, we can show by induction on :math:`k` that :math:`|S_{n+k}-S_n|\leq |T_{n+k}-T_n|` -- the induction step is the triangle inequality. Therefore :math:`S_n` is Cauchy as well, and so converges. When the series :math:`a_n` converges, we say that :math:`a_n` converges absolutely.
+
+Assume :math:`0\leq a_n\leq b_n` and the series :math:`b_n` converges. Therefore the sequence of :math:`b` partial sums is bounded. Since the sequence of :math:`b` partial sums, at each point, is greater than the sequence of :math:`a` partial sums, we get that
+the partial sum sequence for :math:`a` is bounded. We also see that the sequence of partial sums for :math:`a` is monotonically increasing since :math:`0\leq a_n`. Therefore, the series :math:`a_n` converges. In particular, if :math:`|a_n|\leq |b_n|`, and :math:`b_n` converges absolutely, so does :math:`a_n`.
+
+This is our first criteria of positive convergence. As an application, note that if :math:`g(g+2g+g)/4>g`, but since :math:`h<1`, :math:`h^20` and :math:`h=1/(1+a)`. We note that :math:`(1+a)^n\geq 1+na` (by induction, for example) and so :math:`h^n<1/na`, and so :math:`nh^n<1/a`. In particular, :math:`ng^n<nh^{2n}=nh^nh^n<h^n/a`. Since the series :math:`h^n` converges, so does the series :math:`h^n/a` and by the criteria above, `\sum ng^n` also converges.
+
+This is an example of a so-called power series: let :math:`a_n` be a sequence. For any :math:`x`, the series :math:`a_nx^n` is called the power series of :math:`a_n` at :math:`x`. We have shown, above, that the power series :math:`\sum nx^n` converges for every :math:`x|x|`. Then for any natural :math:`n`, :math:`|a_{n+N}x^{n+N}|<|a_Nx^N|(|x|/N)^n`. Since series convergence is a tail property, we see that the series :math:`a_nx^n` converges, so that the power series of the inverse factorial converges at every point!
+
+For further analysis of power series, it is useful to have the following result: if :math:`\Sigma a_n` converges absolutely, and :math:`k_n` is a sequence of natural numbers such that every natural number appears exactly once, then :math:`\Sigma a_{k_n}` also converges, and to the same sum. Since :math:`k_n` includes every natural number, for every natural number, we can ask at which place does it appear. We call that sequence :math:`l_n`. Since :math:`a_n` converges absolutely, given an :math:`\epsilon`, there is a :math:`N`, such that :math:`|S_{n+j}-S_n|N,j>0` where :math:`S` is the sequence of partial sums of :math:`|a_n|`. Treating that a sequence of :math:`k`, and looking at the limit, we can see that :math:`\Sigma |a_{n+j}|\leq \epsilon`. If we take an :math:`M` large enough that :math:`n>M` implies both :math:`k_n>N` and :math:`l_n>M`, we have :math:`|S[a_{k_n}]-S[a_n]|<2\epsilon`, and therefore :math:`|\Sigma a_{k_n}-\Sigma a_n|<2\epsilon`. Since this is true for every :math:`\epsilon`, :math:`|\Sigma a_{k_n}-\Sigma a_n|=0`.
+
+This is useful for power series in the following way: if we have :math:`\Sigma a_n x^n` and :math:`\Sigma b_n x^n` power series, what happens when we multiply them? Inside the common region of convergence, we know that the multiplication is well defined. So we have that :math:`S[a_n x^n]S[b_n x^n]` converges, and so if we use the right :math:`k_n`, and move to a subsequence, we can have that :math:`\Sigma [a_0b_n+a_1b_{n-1}+...+a_{n-1}b_1+a_nb_0]x^n` is the multiplication.
