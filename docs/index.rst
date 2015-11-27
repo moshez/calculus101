@@ -27,6 +27,7 @@ Calculus 101
     roll-theorem
     integral
     exponential
+    story
 
 .. TODO
    Rest of https://calculus101.wordpress.com/wp-admin/post.php?post=46&action=edit
