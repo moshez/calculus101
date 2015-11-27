@@ -20,6 +20,7 @@ Calculus 101
     completeness
     build-reals
     series
+    real-functions
 
 .. TODO
    Rest of https://calculus101.wordpress.com/wp-admin/post.php?post=46&action=edit
