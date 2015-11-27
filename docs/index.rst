@@ -22,6 +22,7 @@ Calculus 101
     series
     real-functions
     limit
+    continuity
 
 .. TODO
    Rest of https://calculus101.wordpress.com/wp-admin/post.php?post=46&action=edit
