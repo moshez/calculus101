@@ -46,15 +46,16 @@ Using the commutative law, :math:`X+V+W+Z=Y+U+W+Z`.
 Now, use the eliminative property of addition,
 and get :math:`X+V=Y+U`.
 
-The other part of the equivalence technique is passing to equivalence classes.
+The other part of the technique is moving from the set of "things"
+to the set of "equivalence classes of things".
+
 Define an equivalence class as
 "all elements that are equivalent to a given element"
-(by virtue of reflectivity,
-the element itself is in the equivalence class,
-and by symmetry and transitivity,
-all elements are equivalent to each other).
 
 Formally: :math:`[(X,Y)]={(Z,W): (Z,W)~(X,Y)}`.
+
+TODO [Issue #4]: Show that :math:`(X,Y)~(Z,W)` iff
+:math:`[(X,Y)]=[(Z,W)]`.
 
 The set of the integers: :math:`\mathbb{Z}={[(X,Y)]: X,Y\in \mathbb{N}}`.
 Just like the natural numbers, the integers need operations.
@@ -100,7 +101,7 @@ and so the definition of addition makes sense.
 Define multiplication by :math:`[(X,Y)][(Z,W)]=[(XZ+YW,XW+YZ)]`
 
 Exercise: Prove that this definition makes sense.
-Hint: Follow the same steps as the proof above -- write down the equivalences.
+Hint [Issue #5]: Follow the same steps as the proof above -- write down the equivalences.
 This time, how about multiplying them?
 
 Note that :math:`[(X,0)]+[(Y,0)]=[(X+Y,0)]` and :math:`[(X,0)][(Y,0)]=[(XY,0)]`.
