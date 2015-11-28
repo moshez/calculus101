@@ -35,6 +35,8 @@ Define multiplication and addition based on the earlier inspiration as:
 Exercise:
  * Prove these definitions depend only on the equivalence classes.
 
+TODO: Add Hints (Issue #6)
+
 Note that :math:`[(X,1)]+[(Y,1)]=[(X+Y,1)]` and :math:`[(X,1)][(Y,1)]=[(XY,1)]`
 and so :math:`e:\mathbb{Z}\to\mathbb{Q}` defined by :math:`e(X)=[(X,1)]` is an embedding.
 Much like earlier, it is sometimes useful to confuse :math:`e(X)` and :math:`X`.
@@ -103,8 +105,6 @@ and multiplication.
 
 QED
 
-Note that :math:`1`
-
 Define :math:`r\leq s` if :math:`r=s`
 or :math:`s-r` is positive.
 
@@ -116,8 +116,11 @@ It is straightforward to verify that
 
 Togther with the field axioms, those are the axioms of an "ordered field".
 
-Exercise: Assume :math:`F` is an ordered field, there is an embedding
-:math:`e:\mathbb{Q}\to F`.
+Exercise: Assume :math:`F` is an ordered field, there is a function 
+:math:`e:\mathbb{Q}\to F`, which is one-to-one
+(i.e., :math:`e(x)=e(y)` implies :math:`x=y`),
+preserves addition, multiplication, zero, one and order.
+(Such a function is called an "embedding").
 
 Hint-a-long:
 Define a sequence by recursion:
