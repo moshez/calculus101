@@ -17,7 +17,10 @@ Much like we did with the rationals, we want to think how $latex X/Y$ behave, an
 Formally define: for two pairs of integers, :math:`(X,Y)~(Z,W)` if :math:`XW=ZY`.
 
 Exercise:
+
  * Prove this relationship is reflective, symmetric and transitive.
+
+TODO: Add Hints (Issue #6)
 
 Let :math:`\mathbb{Q}` be the set of equivalence classes under this relationship.
 
