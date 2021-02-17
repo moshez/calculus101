@@ -61,8 +61,9 @@ Note that by induction, :math:`0<=b_n-a_n = 3^{-n}<1/n`
 and so the conditions for Cantor's Lemma are fullfilled.
 
 Let :math:`c` be the common limit.
-By the :math:`n+1`st stage, :math:`c!=f(n)`.
+By the :math:`n+1`-st stage, :math:`c!=f(n)`.
 This proves the result.
 
 This result is often summarized as "there are more
 real numbers between :math:`0` and :math:`1` than
+integers.
