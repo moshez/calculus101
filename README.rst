@@ -33,3 +33,4 @@ Authors
 =======
 
 * Moshe Zadka <zadka.moshe@gmail.com>
+* Joanna Tsang <j.m.f.tsang@cantab.net>

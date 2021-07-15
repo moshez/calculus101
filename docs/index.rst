@@ -24,7 +24,7 @@ Calculus 101
     limit
     continuity
     derivative
-    roll-theorem
+    rolle-theorem
     integral
     exponential
     story
