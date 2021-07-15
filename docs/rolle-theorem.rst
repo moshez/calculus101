@@ -1,5 +1,5 @@
-Roll's Theorem
-==============
+Rolle's Theorem
+===============
 We note here that if :math:`f(x)=ax+b`, then :math:`f(x)-f(x_0)=a(x-x_0)` and so :math:`[f(x)-f(x_0)]/[x-x_0]=a`, and so :math:`f'(x)=a` for every :math:`x`.
 
 Let :math:`f` be a derivable function on a segment :math:`A=[a,b]`, and assume that :math:`f(a)=f(b)`, then there is a number :math:`c` such that :math:`a<c<b` and :math:`f'(c)=0`. Why?
